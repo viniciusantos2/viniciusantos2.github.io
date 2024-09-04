@@ -1,0 +1,105 @@
+
+Você enviou
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+
+}
+.menu-container{
+    width: 100%;
+    justify-content: space-between;
+}
+.menu-container a.active-menu{
+    background-color: red;
+}
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 60px;
+    transition: 0.8s;
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+.menu-container a:hover{
+    color: red;
+}
+header{
+    background-color: rgba(0,0,0,0.6);
+
+    height: 60px;
+}
+.logo{
+    color: red;
+
+}
+section.main{
+    min-height: 800px;
+    background-image: url(../image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h3{ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-chamada{
+    position: absolute;
+    color: white;
+    bottom: 60px;
+    left: 70px;
+}
+.text-chamada h1{
+    font-size: 60px;
+    
+}
+.text-chamada h3{
+    font-size: 40px;
+}
+section.produtos{
+    background-color: red;
+    padding: 20px 0;
+    text-align: center;
+    color: aliceblue;
+}
+section.produtos h3{
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto1{
+    width: 50%;
+    margin:0 10px;
+}
+.produto1 h3{
+    text-align: center;
+    background-color: red;
+    border: 1px solid white;
+    padding: 8px;
+}
+.produto1 p{
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+.produto1 img{
+    width: 70%;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 8px;
+}
+body{
+    margin: 0;
+}
